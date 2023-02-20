@@ -47,6 +47,51 @@
                 <button class="close" data-modal-close>
                     x
                 </button>
+                <h3 class="data">Deje sus datos, nos contactaremos con usted</h3>
+                <form>
+                    <label for="input-name">
+                      Nombre
+                    </label>
+                    <div class="form-input-cluster">
+                        <input class="form-input" type="text" name="name" id="input-name" required />
+                        <svg class="information">
+                            <use xlink:href="./images/icons-svg.svg#icon-persona"></use>
+                        </svg>
+                    </div>
+
+                    <label for="input-telefono">
+                      Teléfono
+                    </label>
+                    <div class="form-input-cluster">
+                        <input class="form-input" type="telefono" name="telefono" id="input-telefono" required />
+                        <svg class="information">
+                            <use xlink:href="./images/icons-svg.svg#icon-telefono1"></use>
+                        </svg>
+                    </div>
+                
+                    <label for="input-e-mail">
+                      E-mail
+                    </label>
+                    <div class="form-input-cluster">
+                        <input class="form-input" type="e-mail" name="e-mail" id="input-e-mail" required />
+                        <svg class="information">
+                            <use xlink:href="./images/icons-svg.svg#icon-correo"></use>
+                        </svg>
+                    </div>
+                        <div class="form-input-cluster-one">
+                            <label>
+                                Comentarios 
+                            </label>
+                            <textarea class="form-input-one" type="comentarios" name="comentarios" id="input-comentarios" placeholder="Introduzca el texto"></textarea>   
+                        </div> 
+                        <div class="terms">
+                            <label class="for-tex">                                    
+                                <input class="notification" type="checkbox" name="hobby" value="terminos" checked />
+                                Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+                            </label>
+                        </div>                       
+                    <button type="submit" class="send">Enviar</button>
+                </form>
             </div>
         </div>
     </div>
@@ -297,6 +342,19 @@
                         </svg>
                     </div>
                 </div>
+                <form>
+                    <div class="inscription">
+                        <label for="input-suscripcion">
+                            SUSCRÍBASE AL BOLETIN INFORMATIVO
+                        </label>
+                    </div>    
+                    <textarea class="suscripcion" type="suscripcion" name="suscripcion" id="input-suscripcion" placeholder="Correo electronico"></textarea>  
+                    <button type="submit" class="tain">
+                        <svg class="suscrip">
+                            <use xlink:href="./images/icons-svg.svg#icon-suscribase"></use>
+                        </svg>
+                    </button>
+                </form>   
             </address>
         </footer>
     </div>
